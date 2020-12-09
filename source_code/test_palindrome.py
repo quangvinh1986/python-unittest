@@ -17,7 +17,7 @@ class TestPalindrome(TestExercise):
     def test_check_palindrome(self):
         cases = [('ana', True),
                  ('Civic', True),
-                 ('Python', True),
+                 ('Python', False),
                  ('', False),
                  ('P', False),
                  ('Able was I ere I saw Elba', True)]
